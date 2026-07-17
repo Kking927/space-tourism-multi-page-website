@@ -1,1 +1,77 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li,
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  line-height: 1.5;
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  overflow-x: hidden;
+}
+
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  background: transparent;
+  border: none;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms;
+    animation-iteration-count: 1;
+    transition-duration: 0.01ms;
+    scroll-behavior: auto;
+  }
+}
