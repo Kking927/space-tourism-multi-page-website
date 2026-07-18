@@ -60,14 +60,6 @@ body {
   background-attachment: fixed;
 }
 
-button {
-  background: transparent;
-  border: none;
-  font: inherit;
-  color: inherit;
-  cursor: pointer;
-}
-
 .page-container {
   width: 100%;
   max-width: 90rem;
