@@ -45,6 +45,11 @@
   --space-25: 0.125rem;
 }
 
+/* ==========================================================================
+   HOMEPAGE STYLES
+   ========================================================================== */
+
+/* --- Body & Page --- */
 body {
   line-height: 1.5;
   min-height: 100vh;
@@ -69,9 +74,7 @@ body {
   flex-direction: column;
 }
 
-/* ==========================================================================
-   HEADER SECTION
-   ========================================================================== */
+/* Header Section */
 .header {
   display: flex;
   justify-content: space-between;
@@ -147,9 +150,7 @@ body {
   margin-right: var(--space-100);
 }
 
-/* ==========================================================================
-   HERO SECTION
-   ========================================================================== */
+/* Hero Section */
 .hero {
   flex-grow: 1;
   width: 100%;
@@ -190,7 +191,7 @@ body {
   line-height: 1.7;
   max-width: 43ch;
   width: 100%;
-  margin-inline: auto; /* Centers the paragraph block layout */
+  margin-inline: auto;
 }
 
 .hero__btn {
@@ -223,9 +224,7 @@ body {
   transform: scale(1.5);
 }
 
-/* ==========================================================================
-   TABLET RESPONSIVE MATRIX MODIFIERS (768px Width and up)
-   ========================================================================== */
+/* TABLET (768px Width and up) */
 @media (min-width: 48rem) {
   body {
     background-image: url("https://raw.githubusercontent.com/Kking927/space-tourism-multi-page-website/main/images/home/background-home-tablet.jpg");
@@ -312,9 +311,7 @@ body {
   }
 }
 
-/* ==========================================================================
-   DESKTOP RESPONSIVE MATRIX MODIFIERS (1024px Width and up)
-   ========================================================================== */
+/* DESKTOP (1024px Width and up) */
 @media (min-width: 64rem) {
   body {
     background-image: url("https://raw.githubusercontent.com/Kking927/space-tourism-multi-page-website/main/images/home/background-home-desktop.jpg");
@@ -366,7 +363,7 @@ body {
   }
 
   .hero__description {
-    margin-inline: 0; /* Left align text layout on large viewports */
+    margin-inline: 0;
   }
 
   .hero__action {
@@ -374,9 +371,7 @@ body {
   }
 }
 
-/* ==========================================================================
-   MOTION PREFERENCE MEDIA OVERRIDES
-   ========================================================================== */
+/* MOTION PREFERENCES */
 @media (prefers-reduced-motion: reduce) {
   html:focus-within {
     scroll-behavior: auto;
