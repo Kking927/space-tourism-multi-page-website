@@ -1,3 +1,43 @@
+/* ==========================================================================
+   FONT FACE IMPORTS
+   ========================================================================== */
+
+/* Bellefair Regular (For Main Hero Headers) */
+@font-face {
+  font-family: 'Bellefair';
+  src: url('https://fonts.gstatic.com/s/bellefair/v14/t3EXo2di465OtWyPqfuzmF2GSy0.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Barlow Regular (For Body & Description Text) */
+@font-face {
+  font-family: 'Barlow';
+  src: url('https://fonts.gstatic.com/s/barlow/v12/7cHpv4kjgoGqM7E_DMs5.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Barlow Condensed Regular (For Sub-headers/Small Labels) */
+@font-face {
+  font-family: 'Barlow Condensed';
+  src: url('https://fonts.gstatic.com/s/barlowcondensed/v12/HTaK3LthGZnbGHkv_xHwiCUX3g6OW24U.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Barlow Condensed Bold (For Nav Numbers and High Emphasis) */
+@font-face {
+  font-family: 'Barlow Condensed';
+  src: url('https://fonts.gstatic.com/s/barlowcondensed/v12/HTaK3LthGZnbGHkv_xHwiCUX3g6OW3kU.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   /* colors */
   --blue-900: hsl(230 35% 7%);
@@ -46,7 +86,7 @@
 }
 
 /* ==========================================================================
-   HOMEPAGE STYLES
+   00 HOMEPAGE STYLES
    ========================================================================== */
 
 /* --- Body & Page --- */
