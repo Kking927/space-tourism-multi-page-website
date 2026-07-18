@@ -1,77 +1,51 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
+/* Reset margins */
 body,
 h1,
 h2,
 h3,
 h4,
+h5,
 p,
-ul,
-ol,
-li,
-figure {
-  margin: 0;
-  padding: 0;
-}
-
-html,
-body {
-  height: 100%;
-  -webkit-font-smoothing: antialiased;
-}
-
-body {
-  line-height: 1.5;
-  min-height: 100vh;
-  text-rendering: optimizeSpeed;
-  overflow-x: hidden;
-}
-
-img,
+figure,
 picture {
-  max-width: 100%;
-  display: block;
+    margin: 0; 
 }
 
-ul,
-ol {
-  list-style: none;
+/* set up the body */
+body {
+    line-height: 1.5;
+    min-height: 100vh;
 }
 
-a {
-  text-decoration: none;
-  color: inherit;
+/* make images easier to work with */
+img,
+picutre {
+    max-width: 100%;
+    display: block;
 }
 
-button {
-  background: transparent;
-  border: none;
-  font: inherit;
-  color: inherit;
-  cursor: pointer;
-}
-
+/* make form elements easier to work with */
 input,
+button,
 textarea,
 select {
-  font: inherit;
+    font: inherit;
 }
 
-@media (prefers-reduced-motion: reduce) {
-  html:focus-within {
-    scroll-behavior: auto;
-  }
-  
+/* remove animations for people who've turned them off */
+@media (prefers-reduced-motion: reduce) {  
   *,
   *::before,
   *::after {
-    animation-duration: 0.01ms;
-    animation-iteration-count: 1;
-    transition-duration: 0.01ms;
-    scroll-behavior: auto;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
   }
 }
