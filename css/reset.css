@@ -29,6 +29,20 @@ select {
     font: inherit;
 }
 
+img, picture {
+  max-width: 100%;
+  display: block;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 @media (prefers-reduced-motion: reduce) {  
   *,
   *::before,
