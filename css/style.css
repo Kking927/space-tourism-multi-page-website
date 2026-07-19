@@ -27,7 +27,7 @@
   --fs-preset-9: 1.125rem;
 
   /* letter spacing */
-  --ls-preset-5: 4.75px;   /* Fine-tuned tracking match */
+  --ls-preset-5: 4.75px;
   --ls-preset-7: 2.35px;
   --ls-preset-8: 2.7px;
 
@@ -56,6 +56,7 @@ body {
   line-height: 1.5;
   min-height: 100vh;
   text-rendering: optimizeSpeed;
+  overflow-y: auto;
   overflow-x: hidden;
   color: var(--white);
   font-family: var(--ff-sans);
