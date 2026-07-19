@@ -1,42 +1,4 @@
-/* ==========================================================================
-   FONT FACE IMPORTS
-   ========================================================================== */
-
-/* Bellefair Regular (For Main Hero Headers) */
-@font-face {
-  font-family: 'Bellefair';
-  src: url('https://fonts.gstatic.com/s/bellefair/v14/t3EXo2di465OtWyPqfuzmF2GSy0.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-/* Barlow Regular (For Body & Description Text) */
-@font-face {
-  font-family: 'Barlow';
-  src: url('https://fonts.gstatic.com/s/barlow/v12/7cHpv4kjgoGqM7E_DMs5.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-/* Barlow Condensed Regular (For Sub-headers/Small Labels) */
-@font-face {
-  font-family: 'Barlow Condensed';
-  src: url('https://fonts.gstatic.com/s/barlowcondensed/v12/HTaK3LthGZnbGHkv_xHwiCUX3g6OW24U.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-/* Barlow Condensed Bold (For Nav Numbers and High Emphasis) */
-@font-face {
-  font-family: 'Barlow Condensed';
-  src: url('https://fonts.gstatic.com/s/barlowcondensed/v12/HTaK3LthGZnbGHkv_xHwiCUX3g6OW3kU.woff2') format('woff2');
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,400;0,700;1,400;1,700&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bellefair&display=swap');
 
 :root {
   /* colors */
@@ -48,7 +10,7 @@
   --blue-300-raw: 231 77% 90%;
   --white-raw: 0 0% 100%;
 
-  /* font-families */
+  /* Font-families (Mapped safely to the imported engine weights) */
   --ff-serif: "Bellefair", serif;
   --ff-sans-cond: "Barlow Condensed", sans-serif;
   --ff-sans: "Barlow", sans-serif;
@@ -65,9 +27,9 @@
   --fs-preset-9: 1.125rem;
 
   /* letter spacing */
-  --ls-preset-5: 4px;
-  --ls-preset-7: 2px;
-  --ls-preset-8: 2px;
+  --ls-preset-5: 4.75px;   /* Fine-tuned tracking match */
+  --ls-preset-7: 2.35px;
+  --ls-preset-8: 2.7px;
 
   /* spacing system */
   --space-1600: 8rem;
