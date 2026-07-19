@@ -1,1 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Space Tourism - Destination</title>
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <div class="page-container">
+    <header class="header">
+      <a href="index.html" class="header__logo-link">
+        <img src="https://raw.githubusercontent.com/Kking927/space-tourism-multi-page-website/c124ceb71c9e15683adeff9bab0dc4fa76780b65/images/shared/logo.svg" alt="Space Tourism Star Logo" class="header__logo">
+      </a>
+
+      <div class="header__line"></div>
+
+      <button class="nav-toggle" aria-controls="primary-nav" aria-expanded="false">
+        <img src="https://raw.githubusercontent.com/Kking927/space-tourism-multi-page-website/c124ceb71c9e15683adeff9bab0dc4fa76780b65/images/shared/icon-hamburger.svg" alt="Open Menu" class="hamburger-icon">
+        <img src="https://raw.githubusercontent.com/Kking927/space-tourism-multi-page-website/c124ceb71c9e15683adeff9bab0dc4fa76780b65/images/shared/icon-close.svg" alt="Close Menu" class="close-icon">
+      </button>
+
+      <nav class="nav" id="primary-nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="index.html" class="nav__link"><span>00</span> Home</a>
+          </li>
+          <li class="nav__item nav__item--active">
+            <a href="destination.html" class="nav__link"><span>01</span> Destination</a>
+          </li>
+          <li class="nav__item">
+            <a href="crew.html" class="nav__link"><span>02</span> Crew</a>
+          </li>
+          <li class="nav__item">
+            <a href="technology.html" class="nav__link"><span>03</span> Technology</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="destination-main">
+      <div class="destination-container">
+
+        <div class="destination__visual-column">
+          <h1 class="destination__title">
+            <span class="destination__title-number">01</span> Pick your destination
+          </h1>
+          <div class="destination__image-wrapper">
+            <picture>
+              <source id="planet-webp" srcset="https://github.com/Kking927/space-tourism-multi-page-website/blob/main/images/destination/image-moon.webp?raw=true" type="image/webp">
+              <img id="planet-img" src="https://github.com/Kking927/space-tourism-multi-page-website/blob/main/images/destination/image-moon.png?raw=true" alt="Moon planetary view" class="destination__image">
+            </picture>
+          </div>
+        </div>
+
+        <div class="destination__data-column">
+          <nav class="planet-selector" aria-label="Destination selection tabs">
+            <ul class="planet-selector__list">
+              <li class="planet-selector__item"><button class="planet-selector__btn planet-selector__btn--active" data-target="Moon">Moon</button></li>
+              <li class="planet-selector__item"><button class="planet-selector__btn" data-target="Mars">Mars</button></li>
+              <li class="planet-selector__item"><button class="planet-selector__btn" data-target="Europa">Europa</button></li>
+              <li class="planet-selector__item"><button class="planet-selector__btn" data-target="Titan">Titan</button></li>
+            </ul>
+          </nav>
+
+          <article class="planet-details">
+            <h2 class="planet-details__name" id="planet-name">Moon</h2>
+            <p class="planet-details__description" id="planet-description">See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.</p>
+
+            <hr class="planet-details__divider">
+
+            <div class="planet-stats">
+              <div class="planet-stats__group">
+                <span class="planet-stats__label">Avg. Distance</span>
+                <span class="planet-stats__value" id="planet-distance">384,400 km</span>
+              </div>
+              <div class="planet-stats__group">
+                <span class="planet-stats__label">Est. Travel Time</span>
+                <span class="planet-stats__value" id="planet-travel">3 days</span>
+              </div>
+            </div>
+          </article>
+        </div>
+
+      </div>
+    </main>
+  </div>
+
+</body>
+
+</html>
