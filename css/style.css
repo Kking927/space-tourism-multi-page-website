@@ -377,31 +377,6 @@ body {
    DESTIONATION STYLES
    ========================================================================== */
 
-/* --- Body & Page --- */
-body {
-  line-height: 1.5;
-  min-height: 100vh;
-  text-rendering: optimizeSpeed;
-  overflow-x: hidden;
-  color: var(--white);
-  font-family: var(--ff-sans);
-  background-color: var(--blue-900);
-  background-image: url("https://github.com/Kking927/space-tourism-multi-page-website/blob/main/images/destination/background-destination-mobile.jpg?raw=true");
-  background-size: cover;
-  background-position: center bottom;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-
-.page-container {
-  width: 100%;
-  max-width: 90rem;
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
-
 /* Header Section */
 .header {
   display: flex;
