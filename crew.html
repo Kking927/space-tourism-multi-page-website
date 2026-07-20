@@ -1,1 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Space Tourism - Crew</title>
+  <script src="navigation.js" defer></script>
+  <script src="crew.js" defer></script>
+</head>
+
+<body class="page-crew">
+
+  <div class="page-container">
+    <header class="header">
+      <a href="index.html" class="header__logo-link">
+        <img src="https://raw.githubusercontent.com/Kking927/space-tourism-multi-page-website/c124ceb71c9e15683adeff9bab0dc4fa76780b65/images/shared/logo.svg" alt="Space Tourism Star Logo" class="header__logo">
+      </a>
+
+      <div class="header__line"></div>
+
+      <button class="nav-toggle" aria-controls="primary-nav" aria-expanded="false">
+        <img src="https://raw.githubusercontent.com/Kking927/space-tourism-multi-page-website/c124ceb71c9e15683adeff9bab0dc4fa76780b65/images/shared/icon-hamburger.svg" alt="Open Menu" class="hamburger-icon">
+        <img src="https://raw.githubusercontent.com/Kking927/space-tourism-multi-page-website/c124ceb71c9e15683adeff9bab0dc4fa76780b65/images/shared/icon-close.svg" alt="Close Menu" class="close-icon">
+      </button>
+
+      <nav class="nav" id="primary-nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="index.html" class="nav__link"><span>00</span> Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="destination.html" class="nav__link"><span>01</span> Destination</a>
+          </li>
+          <li class="nav__item nav__item--active">
+            <a href="crew.html" class="nav__link"><span>02</span> Crew</a>
+          </li>
+          <li class="nav__item">
+            <a href="technology.html" class="nav__link"><span>03</span> Technology</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="crew-main">
+      <div class="crew-grid-container">
+
+        <div class="crew__data-column">
+          <h1 class="crew__title">
+            <span class="crew__title-number" aria-hidden="true">02</span> Meet your crew
+          </h1>
+          <div class="crew__details">
+            <p class="crew__details-role">Commander</p>
+            <h2 class="crew__details-name">Douglas Hurley</h2>
+            <p class="crew__details-bio">Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former NASA astronaut. He launched into space for the third time as commander of Crew Dragon Demo-2.</p>
+          </div>
+
+          <div class="crew-slider-controls" role="tablist" aria-label="Crew member selector">
+            <button class="crew-slider__dot crew-slider__dot--active" role="tab" aria-selected="true" data-index="0" aria-label="Slide 1: Commander"></button>
+            <button class="crew-slider__dot" role="tab" aria-selected="false" data-index="1" aria-label="Slide 2: Mission Specialist"></button>
+            <button class="crew-slider__dot" role="tab" aria-selected="false" data-index="2" aria-label="Slide 3: Pilot"></button>
+            <button class="crew-slider__dot" role="tab" aria-selected="false" data-index="3" aria-label="Slide 4: Flight Engineer"></button>
+          </div>
+        </div>
+
+        <div class="crew__visual-column">
+          <div class="crew__image-wrapper">
+            <img class="crew__image" src="https://github.com/Kking927/space-tourism-multi-page-website/blob/main/images/crew/image-douglas-hurley.webp?raw=true" alt="Douglas Hurley">
+          </div>
+        </div>
+
+      </div>
+    </main>
+  </div>
+</body>
+
+</html>
