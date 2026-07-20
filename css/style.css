@@ -109,6 +109,17 @@ body {
   height: 2.5rem;
 }
 
+.header__logo-link {
+  display: inline-block;
+  transition: opacity 0.25s ease, transform 0.25s ease;
+}
+
+.header__logo-link:hover,
+.header__logo-link:focus-visible {
+  opacity: 0.8;
+  transform: scale(1.05);
+}
+
 .header__line {
   display: none;
 }
@@ -156,17 +167,24 @@ body {
 }
 
 .nav__link {
+  position: relative;
   font-family: var(--ff-sans-cond);
   font-size: var(--fs-preset-8);
   letter-spacing: var(--ls-preset-8);
   text-transform: uppercase;
   display: block;
   padding-block: var(--space-50);
+  transition: color 0.25s ease, opacity 0.25s ease;
 }
 
 .nav__link span {
   font-weight: 700;
   margin-right: var(--space-100);
+}
+
+.nav__link:hover,
+.nav__link:focus-visible {
+  color: var(--blue-300);
 }
 
 /* ==========================================================================
