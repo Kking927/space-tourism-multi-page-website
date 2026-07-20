@@ -69,19 +69,19 @@ body {
 
 /* --- Mobile Background Images --- */
 .page-home {
-  background-image: url("https://github.com/Kking927/space-tourism-multi-page-website/blob/main/images/home/background-home-mobile.jpg?raw=true");
+  background-image: url("images/home/background-home-mobile.jpg");
 }
 
 .page-destination {
-  background-image: url("https://github.com/Kking927/space-tourism-multi-page-website/blob/main/images/destination/background-destination-mobile.jpg?raw=true");
+  background-image: url("images/destination/background-destination-mobile.jpg");
 }
 
 .page-crew {
-  background-image: url("https://github.com/Kking927/space-tourism-multi-page-website/blob/main/images/crew/background-crew-mobile.jpg?raw=true");
+  background-image: url("images/crew/background-crew-mobile.jpg");
 }
 
 .page-technology {
-  background-image: url("https://github.com/Kking927/space-tourism-multi-page-website/blob/main/images/technology/background-technology-mobile.jpg?raw=true");
+  background-image: url("images/technology/background-technology-mobile.jpg");
 }
 
 .page-container {
@@ -632,20 +632,19 @@ body {
 
   /* --- Tablet Background Images --- */
   .page-home {
-    background-image: url("https://github.com/Kking927/space-tourism-multi-page-website/blob/main/images/home/background-home-tablet.jpg?raw=true");
-  }
+  background-image: url("images/home/background-home-tablet.jpg");
+}
 
   .page-destination {
-    background-image: url("https://github.com/Kking927/space-tourism-multi-page-website/blob/main/images/destination/background-destination-tablet.jpg?raw=true");
-  }
+  background-image: url("images/destination/background-destination-tablet.jpg");
+}
 
   .page-crew {
-    background-image: url("https://github.com/Kking927/space-tourism-multi-page-website/blob/main/images/crew/background-crew-tablet.jpg?raw=true");
-  }
-
+  background-image: url("images/crew/background-crew-tablet.jpg");
+}
   .page-technology {
-    background-image: url("https://github.com/Kking927/space-tourism-multi-page-website/blob/main/images/technology/background-technology-tablet.jpg?raw=true");
-  }
+  background-image: url("images/technology/background-technology-tablet.jpg");
+}
 
   /* --- Header & Navigation --- */
   .header {
@@ -798,22 +797,21 @@ body {
    ========================================================================== */
 @media (min-width: 64rem) {
   /* --- Desktop Background Images --- */
-  .page-home {
-    background-image: url("https://github.com/Kking927/space-tourism-multi-page-website/blob/main/images/home/background-home-desktop.jpg?raw=true");
-  }
+ .page-home {
+  background-image: url("images/home/background-home-desktop.jpg");
+}
 
   .page-destination {
-    background-image: url("https://github.com/Kking927/space-tourism-multi-page-website/blob/main/images/destination/background-destination-desktop.jpg?raw=true");
-  }
+  background-image: url("images/destination/background-destination-desktop.jpg");
+}
 
-  .page-crew {
-    background-image: url("https://github.com/Kking927/space-tourism-multi-page-website/blob/main/images/crew/background-crew-desktop.jpg?raw=true");
-  }
+.page-crew {
+  background-image: url("images/crew/background-crew-desktop.jpg");
+}
 
-  .page-technology {
-    background-image: url("https://github.com/Kking927/space-tourism-multi-page-website/blob/main/images/technology/background-technology-desktop.jpg?raw=true");
-  }
-
+.page-technology {
+  background-image: url("images/technology/background-technology-desktop.jpg");
+}
   /* --- Desktop Header & Navigation --- */
   .header {
     margin-block-start: var(--space-500);
