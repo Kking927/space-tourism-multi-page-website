@@ -654,12 +654,12 @@ body {
   }
 
   .nav-toggle {
-    display: none !important;
+    display: none;
   }
 
   .nav {
     position: static;
-    transform: none !important;
+    transform: none;
     background-color: hsl(var(--white-raw) / 0.05);
     backdrop-filter: blur(40px);
     padding-inline: var(--space-600);
@@ -1085,17 +1085,17 @@ body {
   *,
   *::before,
   *::after {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-    scroll-behavior: auto !important;
+    animation-duration: 0.01ms;
+    animation-iteration-count: 1;
+    transition-duration: 0.01ms;
+    scroll-behavior: auto;
   }
 
   .nav {
-    transition: none !important;
+    transition: none;
   }
 
   .hero__btn::after {
-    transition: none !important;
+    transition: none;
   }
 }
