@@ -812,13 +812,21 @@ body {
   background-image: url("../images/destination/background-destination-desktop.jpg");
 }
 
-.page-crew {
+  .page-crew {
   background-image: url("../images/crew/background-crew-desktop.jpg");
 }
 
-.page-technology {
+  .page-technology {
   background-image: url("../images/technology/background-technology-desktop.jpg");
 }
+
+  .hero,
+  .destination-main,
+  .crew-main,
+  .tech-main {
+    padding-block-start: clamp(var(--space-800), 12vh, var(--space-1200));
+  }
+  
   /* --- Desktop Header & Navigation --- */
   .header {
     margin-block-start: var(--space-300);
