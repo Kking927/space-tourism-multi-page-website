@@ -524,7 +524,7 @@ body {
 }
 
 /* ==========================================================================
-   TECH LAYOUT (Mobile Defaults)
+   TECH LAYOUT (MOBILE DEFAULTS)
    ========================================================================== */
 .tech-main {
   flex-grow: 1;
@@ -594,7 +594,8 @@ body {
   font-size: var(--fs-preset-8);
   display: grid;
   place-items: center;
-  transition: border-color 0.2s ease, background-color 0.2s ease, color 0.2s ease;
+  transition: border-color 0.2s ease, background-color 0.2s ease,
+    color 0.2s ease;
 }
 
 .tech-tab__btn:hover {
@@ -797,17 +798,6 @@ body {
 
   .crew__image {
     max-height: 40rem;
-  }
-
-  /* --- Technology Tablet --- */
-  .tech-tab__btn {
-    width: 3.75rem;
-    height: 3.75rem;
-    font-size: var(--fs-preset-5);
-  }
-
-  .tech__details-bio {
-    max-width: 28.5rem;
   }
 }
 
@@ -1035,10 +1025,12 @@ body {
 
   /* --- Technology Desktop --- */
   .tech-main {
-    padding-inline: var(--space-1000) 0;
+    padding-inline: var(--space-1000);
     padding-block-start: var(--space-300);
     padding-block-end: var(--space-1200);
     justify-content: center;
+    max-width: 90rem;
+    margin-inline: auto;
   }
 
   .tech__title {
@@ -1060,21 +1052,10 @@ body {
     margin-block-end: 0;
   }
 
-  .tech-tab__btn {
-    width: 5rem;
-    height: 5rem;
-    font-size: var(--fs-preset-4);
-  }
-
   .tech__details {
     order: 2;
     text-align: left;
     padding-inline: 0;
-  }
-
-  .tech__details-bio {
-    margin: 0;
-    max-width: 27rem;
   }
 
   .tech__visual-column {
@@ -1082,16 +1063,14 @@ body {
     margin-block-end: 0;
     justify-self: end;
     align-self: center;
-  }
-
-  .tech__image-wrapper {
-    display: block;
+    width: 100%;
+    max-width: 32rem;
   }
 
   .tech__image {
-    max-width: 32rem;
-    width: auto;
+    width: 100%;
     height: auto;
+    object-fit: cover;
   }
 }
 
