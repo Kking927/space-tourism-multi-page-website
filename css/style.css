@@ -894,7 +894,8 @@ body {
     margin: 0 auto;
     width: 100%;
     margin-block-start: var(--space-300);
-    padding-inline: 0;
+    padding-inline-start: var(--space-300);
+    padding-inline-end: var(--space-800);
   }
 
   .hero__description {
