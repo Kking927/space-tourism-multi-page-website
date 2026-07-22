@@ -706,7 +706,7 @@ body {
   }
 
   .nav__link {
-    padding-block: var(--space-500);
+    padding-block: var(--space-300);
     font-size: var(--fs-preset-7);
   }
 
@@ -889,13 +889,12 @@ body {
   .hero {
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
     text-align: left;
     margin: 0 auto;
     width: 100%;
     padding-block-start: var(--space-300);
-    padding-inline-start: var(--space-300);
-    padding-inline-end: var(--space-800);
+    padding-inline-start: 0;
   }
 
   .hero__description {
