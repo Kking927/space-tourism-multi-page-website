@@ -706,7 +706,7 @@ body {
   }
 
   .nav__link {
-    padding-block: var(--space-300);
+    padding-block: var(--space-500);
     font-size: var(--fs-preset-7);
   }
 
