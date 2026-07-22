@@ -221,6 +221,7 @@ body {
   display: block;
   font-family: var(--ff-serif);
   font-size: clamp(5rem, 12vw, var(--fs-preset-1));
+  font-weight: var(--fw-bold);
   text-transform: uppercase;
   color: var(--white);
   line-height: 1.1;
