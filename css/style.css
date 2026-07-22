@@ -225,7 +225,7 @@ body {
   letter-spacing: var(--ls-preset-5);
   color: var(--blue-300);
   text-transform: uppercase;
-  margin-block-end: var(--space-200);
+  margin-bottom: var(--space-300);
 }
 
 .hero__main-text {
