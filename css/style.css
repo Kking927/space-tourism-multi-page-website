@@ -829,7 +829,7 @@ body {
   
   /* --- Desktop Header & Navigation --- */
   .header {
-    margin-block-start: var(--space-300);
+    margin-block-start: var(--space-500);
     padding-inline-start: var(--space-1000);
     padding-inline-end: 0;
     display: flex;
@@ -880,16 +880,15 @@ body {
     display: inline-block;
   }
 
-  /* --- Home Desktop --- */
   .hero {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     text-align: left;
-    max-width: 69.375rem;
     margin: 0 auto;
     width: 100%;
-    padding-block-end: var(--space-1600);
+    margin-block-start: var(--space-300);
+    padding-inline: clamp(var(--space-300), 4vw + 0.5rem, var(--space-1000));
   }
 
   .hero__description {
@@ -899,7 +898,7 @@ body {
   .hero__action {
     margin-inline-end: var(--space-500);
   }
-
+  
   /* --- Destination Desktop --- */
   .destination-main {
     padding-inline: var(--space-1600);
