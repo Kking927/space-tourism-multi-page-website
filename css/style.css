@@ -927,7 +927,7 @@ body {
     max-width: 75rem;
     column-gap: var(--space-1600);
     align-items: end;
-    margin-block-start: var(--space-800);
+    margin-block-start: var(--space-300);
   }
 
   .destination__visual-column {
