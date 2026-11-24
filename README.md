@@ -1,6 +1,6 @@
 # Frontend Mentor - Space Tourism Multi-Page Website Solution
 
-This is a solution to the [Space tourism website challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gB862L1QI). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Space tourism website challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
@@ -75,4 +75,5 @@ const updateTabContent = (targetIndex) => {
  ## Author
 
 
-- Frontend Mentor - [@Kking927](https://www.frontendmentor.io/profile/Kking927) 
+- Frontend Mentor - [@Kking927](https://www.frontendmentor.io/profile/Kking927)
+- GitHub - [Kking927](https://github.com/Kking927)
