@@ -16,14 +16,15 @@ li {
   padding: 0;
 }
 
-html,
+html {
+  min-height: 100vh;
+  scroll-behavior: smooth; 
+}
+
 body {
   min-height: 100vh;
   height: auto;
   -webkit-font-smoothing: antialiased;
-}
-
-body {
   line-height: 1.5;
   text-rendering: optimizeSpeed;
   overflow-x: hidden;
