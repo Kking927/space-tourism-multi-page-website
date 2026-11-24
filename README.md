@@ -54,7 +54,7 @@ Users should be able to:
 
 ### What I learned
 
-During this project, I got practice connecting a multi-page site and using JavaScript data matrices to dynamically handle user interactions and state changes.
+During this project, I had practice connecting a multi-page site and using JavaScript data matrices to dynamically handle user interactions and state changes.
 
 * **Connecting a Multi-Page Site Architecture:** Managed page states and routing across multiple HTML files (`index.html`, `destination.html`, `crew.html`, and `technology.html`) while keeping a cohesive global layout. To avoid repeating global CSS rules while maintaining page-specific identities, I assigned distinct page classes to the `<body>` element (e.g., `<body class="page-destination">`). This allowed a single master stylesheet to dynamically set viewport background media and layout constraints based on the active page.
 
