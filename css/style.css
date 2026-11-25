@@ -36,9 +36,13 @@
   /* Spacing system */
   --space-1600: 8rem;
   --space-1200: 6rem;
+  --space-1025: 5.25rem;
   --space-1000: 5rem;
+  --space-825: 4.25rem;
   --space-800: 4rem;
   --space-700: 3.5rem;
+  --space-625: 3.25rem;
+  --space-612: 3.125rem;
   --space-600: 3rem;
   --space-500: 2.5rem;
   --space-400: 2rem;
@@ -52,7 +56,9 @@
   --space-25: 0.125rem;
 
   /* Custom Spacing */
+  --nav-padding-inline: clamp(6rem, 8vw, 9.125rem);
   --mw-desktop: 73.25rem;
+  --selector-gap: 1.3125rem;
 }
 
 /* ==========================================================================
@@ -187,8 +193,7 @@ body {
 }
 
 .nav__link span {
-  font-weight: 700;
-  margin-inline-end: var(--space-100);
+  margin-inline-end: var(--space-50);
 }
 
 .nav__link:hover,
@@ -236,10 +241,12 @@ body {
 .hero__main-text {
   display: block;
   font-family: var(--ff-serif);
+  font-weight: 400;
   font-size: clamp(5rem, 12vw, var(--fs-preset-1));
   text-transform: uppercase;
   color: var(--white);
   line-height: 1.1;
+  letter-spacing: 0.035em;
   margin-bottom: var(--space-300);
 }
 
@@ -388,7 +395,7 @@ body {
 .planet-details__description {
   color: var(--blue-300);
   font-family: var(--ff-sans);
-  line-height: 1.7;
+  line-height: 1.8;
   font-size: var(--fs-preset-8);
   max-width: 28rem;
   margin-block-end: var(--space-600);
@@ -398,7 +405,7 @@ body {
   border: 0;
   height: 1px;
   background-color: hsl(var(--white-raw) / 0.1);
-  margin-block: var(--space-800) var(--space-300); 
+  margin-block: var(--space-625) var(--space-300); 
   max-width: 28rem;
 }
 
@@ -411,7 +418,7 @@ body {
 .planet-stats__group {
   display: flex;
   flex-direction: column;
-  gap: var(--space-100);
+  gap: var(--space-50);
 }
 
 .planet-stats__label {
@@ -705,7 +712,6 @@ body {
     background-color: hsl(var(--white-raw) / 0.04);
     backdrop-filter: blur(40px);
     -webkit-backdrop-filter: blur(40px);
-    padding-inline: clamp(var(--space-600), 6vw, var(--space-1000));
     padding-block: 0;
     display: flex;
     align-items: center;
@@ -718,7 +724,6 @@ body {
 
   .nav__list {
     flex-direction: row;
-    gap: var(--space-500);
     height: 100%;
   }
 
@@ -731,7 +736,6 @@ body {
 
   .nav__link {
     padding-block: var(--space-500);
-    font-size: var(--fs-preset-7);
   }
 
   .nav__link span {
@@ -895,8 +899,7 @@ body {
   }
 
   .nav {
-    padding-inline-start: clamp(var(--space-800), 8vw, var(--space-1600));
-    padding-inline-end: clamp(var(--space-800), 10vw, 12rem);
+    padding-inline: var(--nav-padding-inline);
     background-color: hsl(var(--white-raw) / 0.04);
     backdrop-filter: blur(40px);
     -webkit-backdrop-filter: blur(40px);
@@ -907,7 +910,7 @@ body {
   }
 
   .nav__list {
-    gap: var(--space-600);
+    gap: var(--space-612);
     z-index: 20;
   }
 
@@ -970,7 +973,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: var(--space-600);
+    gap: var(--space-500);
     width: 100%;
   }
 
@@ -981,6 +984,7 @@ body {
 
   .destination__image-wrapper {
     margin-inline-start: var(--space-800);
+    margin-block-start: var(--space-100);
     max-width: 28rem;
     width: 100%;
   }
@@ -990,17 +994,18 @@ body {
     flex-direction: column;
     align-items: flex-start;
     justify-self: end;
-    margin-block-start: var(--space-1000);
+    margin-block-start: var(--space-1025);
     width: 100%;
     max-width: 28rem;
   }
 
   .planet-selector {
-    margin-block: 0 var(--space-500);
+    margin-block: var(--space-100) var(--space-400);
   }
 
   .planet-selector__list {
     justify-content: flex-start;
+    gap: var(--selector-gap);
   }
 
   .destination__info {
@@ -1009,7 +1014,7 @@ body {
 
   .planet-details__name {
     font-size: var(--fs-preset-2);
-    margin-block: var(--space-50) var(--space-200);
+    margin-block: var(--space-100) var(--space-200);
   }
 
   .planet-details__description {
@@ -1021,7 +1026,7 @@ body {
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
-    gap: var(--space-1000);
+    gap: var(--space-825);
   }
 
   /* --- Crew Desktop --- */
@@ -1102,7 +1107,7 @@ body {
     padding-inline: 0;
     text-align: left;
     max-width: 75rem;
-    margin-inline-auto;
+    margin-inline: auto;
   }
 
   .tech-grid-container {
