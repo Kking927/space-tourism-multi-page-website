@@ -29,9 +29,10 @@
   --fs-preset-9: 1.125rem;
 
   /* Letter spacing */
-  --ls-preset-5: 4.75px;
-  --ls-preset-7: 2.35px;
-  --ls-preset-8: 2.7px;
+  --ls-preset-5: 0.3em;
+  --ls-preset-6: 0.17em;
+  --ls-preset-7: 0.15em;
+  --ls-preset-8: 0.035em;
 
   /* Spacing system */
   --space-1600: 8rem;
@@ -185,7 +186,7 @@ body {
   position: relative;
   font-family: var(--ff-sans-cond);
   font-size: var(--fs-preset-8);
-  letter-spacing: var(--ls-preset-8);
+  letter-spacing: var(--ls-preset-6);
   text-transform: uppercase;
   display: block;
   padding-block: var(--space-50);
@@ -246,7 +247,7 @@ body {
   text-transform: uppercase;
   color: var(--white);
   line-height: 1.1;
-  letter-spacing: 0.035em;
+  letter-spacing: var(--ls-preset-8);
   margin-bottom: var(--space-300);
 }
 
@@ -354,7 +355,7 @@ body {
 .planet-selector__btn {
   font-family: var(--ff-sans-cond);
   font-size: var(--fs-preset-8);
-  letter-spacing: var(--ls-preset-8);
+  letter-spacing: var(--ls-preset-6);
   text-transform: uppercase;
   color: var(--blue-300);
   padding-block-end: var(--space-150);
